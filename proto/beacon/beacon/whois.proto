@@ -1,0 +1,11 @@
+syntax = "proto3";
+package beacon.beacon;
+
+option go_package = "beacon/x/beacon/types";
+
+message Whois {
+  string validator = 1; 
+  string latest = 2; 
+  string jitter = 3;
+}
+

@@ -1,8 +1,10 @@
 // THIS FILE IS GENERATED AUTOMATICALLY. DO NOT MODIFY.
 
+import BeaconBeacon from './beacon.beacon'
 
 
 export default { 
+  BeaconBeacon: load(BeaconBeacon, 'beacon.beacon'),
   
 }
 

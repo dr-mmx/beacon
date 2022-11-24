@@ -1,0 +1,21 @@
+syntax = "proto3";
+package beacon.beacon;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "beacon/x/beacon/types";
+
+// Msg defines the Msg service.
+service Msg {
+      rpc Alive(MsgAlive) returns (MsgAliveResponse);
+// this line is used by starport scaffolding # proto/tx/rpc
+}
+
+message MsgAlive {
+  string creator = 1;
+}
+
+message MsgAliveResponse {
+}
+
+// this line is used by starport scaffolding # proto/tx/message
