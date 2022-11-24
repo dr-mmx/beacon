@@ -6,7 +6,7 @@ accounts:
     coins: ["10000token", "100000000stake"]
 validators:
   - name: alice
-    bonded: "100000000stake"
+    bonded: "10000000stake"
 client:
   openapi:
     path: "docs/static/openapi.yml"
